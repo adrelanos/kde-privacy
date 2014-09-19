@@ -1,0 +1,11 @@
+kde-privacy (3:0.2-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 19 Sep 2014 18:32:01 +0000
+
+kde-privacy (3:0.1-2) unstable; urgency=low
+
+  * Initial release.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 17:56:41 +0000
