@@ -1,5 +1,6 @@
 [General]
-AutoStart=false
+KeepClipboardContents=false
+#AutoStart=false
 
-[Notification Messages]
-StartAutomatically=false
+#[Notification Messages]
+#StartAutomatically=false
