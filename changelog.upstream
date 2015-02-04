@@ -1,0 +1,72 @@
+commit 5fb088c2e5e6945b5afb52a8854034b6f94dca88
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:43 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit 2093d70d16bc87651ca3e9c64ab91d6ff3838149
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:47 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 4471a4125905ea6c4e8a6f0f4f45d1ab474db75d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:49 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 06867449f41b4af6960711ed127eea9fa5d98650
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:15 2014 +0000
+
+    updated generic makefile
+
+commit 66d3f07ab434ebe79d94dde4f37f12b6a67b1728
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:24 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit f73893706a3f358c6b6090f977d1b9f718da4e79
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:52 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 516434251159226e6fb14bcb13c78e1df988de55
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:03 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit df70bf195dc1df1055f433580666c471b1f5f8ab
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:55 2014 +0000
+
+    readme
+
+commit ea9cbc9b1fc20323fcc6fb70ab48b83efb581e71
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 21 11:54:07 2014 +0000
+
+    bumped version number
+
+commit 751185a86a22d3710fabfa5e5d56dc22d2868515
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 21 11:52:58 2014 +0000
+
+    don't keep clipboard contents rather than not starting klipper at all as per https://www.whonix.org/forum/index.php/topic,542.0.html
+
+commit 564a7b99fba9d13ef3552f7cd02119ce9fe0ba89
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 19 18:33:28 2014 +0000
+
+    initial implementation
