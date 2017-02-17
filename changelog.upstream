@@ -1,3 +1,31 @@
+commit 7700ce36c8d24170e16e253c5caaa186e419e979
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 15 20:46:14 2017 +0000
+
+    Debian stretch / kde plasma5 fix: KDEDIRS -> XDG_CONFIG_DIRS
+    
+    https://phabricator.whonix.org/T633
+
+commit 6fe0a8cdb5f7ca670eaaf0e82e2f40e62132e71a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:47:51 2017 +0000
+
+    remove faketime from Build-Depends:
+    
+    since no longer used for reproducible builds
+
+commit 0952f08b64ea16b40636a8ebeffa37abaa49226f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:35:24 2017 +0000
+
+    remove debian/gain-root-command workaround
+
+commit 2637da7397b895b69403d89349d0a4976fa06991
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 15:32:40 2017 +0000
+
+    bumped changelog version
+
 commit 849f09d6a75ea60fa7816dbeb43a7b3d00d77145
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 08:35:35 2017 +0100
