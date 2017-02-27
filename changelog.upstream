@@ -1,3 +1,25 @@
+commit 30b049d4ab3117ef9a3872d2a709b19bcc535661
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 21 19:46:34 2017 +0000
+
+    Whonix 14 KDE plasma 5 fixes
+    
+    https://phabricator.whonix.org/T633
+
+commit 31def558e6c5c59d246dd0559383c2570a18363f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 20 00:36:08 2017 +0000
+
+    fix path for KDE plasma 5 / Debian stretch
+    
+    https://phabricator.whonix.org/T633
+
+commit df87c758735c2aafd16212e2fa1c3450f2c858e8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 14:02:22 2017 +0000
+
+    bumped changelog version
+
 commit 7700ce36c8d24170e16e253c5caaa186e419e979
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 15 20:46:14 2017 +0000
